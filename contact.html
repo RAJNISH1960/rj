@@ -2,28 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <title></title>
   </head>
   <body>
-    <h3>Contact Me at --> </h3>
+    <h3>Contact Me at  </h3>
+<hr>
+    <p class="contact"><em><strong>email     :</strong></em></p>
+    <p class="contact"><em><strong>Mobile    :</strong></em></p>
+    <p class="contact"><em><strong>Telephone :</strong></em></p>
+    <p class="contact"><em><strong>Address   :</strong></em></p>
+    <hr>
 
-    <p><em><strong>email     :</strong></em></p>
-    <p><em><strong>Mobile    :</strong></em></p>
-    <p><em><strong>Telephone :</strong></em></p>
-    <p><em><strong>Address   :</strong></em></p>
+<div class="maillst">
+  <form  action="mailto:rajneesh.jhr@gmail.com" method="post" enctype="text/plain">
+  <p><label>Do you want to signup email list : </label>
+    <input type="checkbox" name="" value=""><br></p>
+    <p><label> Your name &emsp;&emsp; :</label>
+    <input type="text" name="your name" value="" maxlength="40" size="40"><br /></p>
+    <p><label>Your  email add : </label>
+    <input type="email" name="your email" value="" size="40"><br></p>
+    <p><label>Your  message &ensp;: </label><br></p>
+    <p><textarea name="your message" rows="10" cols="55" ></textarea><br></p>
+    <p><input type="submit" name="" value="submit"></p>
+  </form>
+</div>
 
-    <form  action="mailto:rajneesh.jhr@gmail.com" method="post" enctype="text/plain">
-      <label>Do you want to signup email list : </label>
-      <input type="checkbox" name="" value=""><br>
-      <label> Your name :</label>
-      <input type="text" name="your name" value=""><br />
-      <label>Your email add : </label>
-      <input type="email" name="your email" value=""><br>
-      <label>Your message : </label><br>
-      <textarea name="your message" rows="10" cols="30"></textarea>
-      <input type="submit" name="" value="submit">
-
-
-    </form>
   </body>
 </html>
