@@ -1,0 +1,196 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, serif;
+  color: #40514E;
+  position: absolute;
+}
+h1
+{
+  margin:0;
+}
+p
+{
+  margin: 0;
+}
+
+
+
+.top-container {
+  background-color: #E4F9F5;
+  height: 100%;
+
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: indigo;
+  padding-top: 0;
+  padding-bottom: 120px;
+
+}
+
+.middle-container {
+  background-color: #E4F9F5;
+  height: 100%;
+
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: indigo;
+  padding-top: 0;
+  padding-bottom: 120px;
+
+
+}
+
+.left- {
+  background-color: #93B5C6;
+  height: 100%;
+  width: 20%;
+  margin: 0;
+  left:0%;
+  position: absolute;
+  padding-top: 0;
+  padding-bottom: 120px;
+
+}
+
+.center- {
+  height: 100%;
+  width: 75%;
+  margin: 0;
+  position: absolute;
+  left: 20%;
+
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+
+.right- {
+  height: 100%;
+  width: 5%;
+  margin-left: 0;
+  position: absolute;
+  left: 95%;
+  background-color:#A05344;
+  padding-top: 0;
+  padding-bottom: 120px;
+
+
+}
+.img-box {
+  font-family: Sacramento, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.palash {
+  border-radius: 100%;
+  border: solid 2px gold;
+}
+
+.post-box {
+  text-align: right;
+  font-family: Merriweather;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact {
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2rem;
+  padding: 0px;
+
+}
+.skil
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+}
+.skl{
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+}
+
+.edu-his{
+  height: 38px;
+  width: 100%;
+  background-color: #D89216;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+}
+.edu-det {
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+}
+
+span {
+  color: #254fc6;
+}
+.sub {
+  font-size: 1rem;
+}
+
+.work-his {
+  height: 38px;
+  width: 100%;
+  background-color: #D89216;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.work-det {
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  font-size: .95rem;
+  margin: 0;
+}
+.cert-his {
+  height: 38px;
+  width: 100%;
+  background-color: #D89216;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+}
+.work-cert
+{
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  font-size: .95rem;
+  margin: 0;
+}
+.proj-his
+{
+  height: 38px;
+  width: 100%;
+  background-color: #D89216;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 120px;
+
+}
+.work-proj
+{
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  font-size: .95rem;
+  margin: 0;
+}
